@@ -22,6 +22,12 @@ public class CommandRunner implements CommandLineRunner {
                 .age(24)
                 .build();
 
+        User user2 = User.builder()
+                .firstName("Ivan")
+                .lastName("Nikolov")
+                .age(24)
+                .build();
+
         User savedUser = userRepository.save(user1);
         System.out.println(savedUser.toString());
 
