@@ -1,12 +1,12 @@
 package com.advanceacademy.springdemo.runner;
 
+
 import com.advanceacademy.springdemo.entity.User;
 import com.advanceacademy.springdemo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.net.Socket;
 import java.util.Set;
 
 @Component
